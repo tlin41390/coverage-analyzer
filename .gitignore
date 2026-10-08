@@ -1,0 +1,16 @@
+# data and artifacts
+data/
+models/
+outputs/
+*.parquet
+*.pt
+*.mp4
+
+# environment
+.venv/
+__pycache__/
+.ipynb_checkpoints/
+.env
+
+# credentials
+kaggle.json

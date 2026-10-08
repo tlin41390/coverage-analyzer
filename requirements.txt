@@ -1,0 +1,10 @@
+pandas>=2.0
+pyarrow
+numpy
+scikit-learn
+lightgbm
+torch
+matplotlib
+jupyter
+kaggle
+tqdm
