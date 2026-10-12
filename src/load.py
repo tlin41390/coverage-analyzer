@@ -63,7 +63,9 @@ def load_labels():
     sup["is_man"] = (sup["team_coverage_man_zone"] == "MAN_COVERAGE").astype(int)
     keep = KEYS + ["week", "family", "post_shell", "is_man", "team_coverage_type",
                    "possession_team", "defensive_team", "pass_result",
-                    "expected_points_added", "yards_gained"]
+                   "expected_points_added", "yards_gained",
+                   "down", "yards_to_go", "offense_formation",
+                   "receiver_alignment", "defenders_in_the_box"]
     return sup[keep]
 
 def sanity_report(trk, plays):
